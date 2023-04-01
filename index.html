@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Портфолио</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+		}
+		h1 {
+			text-align: center;
+			padding: 20px;
+		}
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			margin: 0 auto;
+			max-width: 1000px;
+		}
+		.col {
+			flex: 1;
+			padding: 10px;
+			box-sizing: border-box;
+		}
+		.col img {
+			max-width: 100%;
+			height: auto;
+			display: block;
+			margin: 0 auto;
+			cursor: pointer;
+			transition: transform .2s;
+		}
+		.col img:hover {
+			transform: scale(1.05);
+		}
+		@media only screen and (max-width: 768px) {
+			.col {
+				flex: 100%;
+			}
+		}
+	</style>
+</head>
+<body>
+	<h1>Портфолио</h1>
+	<div class="container">
+		<div class="col">
+			<img src="do1.jpg" alt="До ретуши">
+		</div>
+		<div class="col">
+			<img src="posle1.jpg" alt="После ретуши">
+		</div>
+		<div class="col">
+			<img src="do2.jpg" alt="До ретуши">
+		</div>
+		<div class="col">
+			<img src="posle2.jpg" alt="После ретуши">
+		</div>
+		<div class="col">
+			<img src="do3.jpg" alt="До ретуши">
+		</div>
+		<div class="col">
+			<img src="posle3.jpg" alt="После ретуши">
+		</div>
+	</div>
+</body>
+</html>
