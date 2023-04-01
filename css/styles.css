@@ -25,13 +25,20 @@ h1 {
     display: block;
     margin: 0 auto;
     cursor: pointer;
-    transition: transform .2s;
+    transition: transform .3s;
 }
 .col img:hover {
-    transform: scale(2.0);
+    transform: scale(3.5);
+    padding-top: 70px;
 }
 @media only screen and (max-width: 768px) {
     .col {
         flex: 100%;
     }
+    
 }
+/* @media screen and (min-width: 500px) {
+    .container {
+        padding-top: 50px;
+    }
+} */
