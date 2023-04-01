@@ -27,10 +27,10 @@ h1 {
     cursor: pointer;
     transition: transform .3s;
 }
-.col img:hover {
-    transform: scale(3.5);
-    padding-top: 70px;
-}
+/* .col img:hover { */
+    /* transform: scale(3.5); */
+    /* padding-top: 70px; */
+/* } */
 @media only screen and (max-width: 768px) {
     .col {
         flex: 100%;
